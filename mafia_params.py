@@ -11,8 +11,6 @@ ordered_roles = ["Don",
                  "Detective",
                  "Miller",
                  "Mafia",
-                 "Undercover Cop",
-                 "Grandma",
                  "Mafia",
                  "Mafia",
                  "Mafia"]
