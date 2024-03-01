@@ -113,4 +113,4 @@ Icons made by <a href="https://www.flaticon.com/authors/vectors-market" title="V
 
 Sounds from <a href="https://www.soundjay.com">Soundjay</a>.
 
-+ [https://en.wikipedia.org/wiki/Mafia_(party_game)](https://en.wikipedia.org/wiki/Mafia_(party_game))
++ [Мафия в Википедии](https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%84%D0%B8%D1%8F_(%D0%B8%D0%B3%D1%80%D0%B0))
