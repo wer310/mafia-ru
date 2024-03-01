@@ -1,3 +1,4 @@
+Описание решил не переводить (только немного исправил):
 # mafia
 :dollar: Web Server Application For Mafia Game Playing On Local Network
 
