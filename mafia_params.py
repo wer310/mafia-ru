@@ -1,17 +1,9 @@
-ordered_roles = ["Resident",
-                 "Don",
+ordered_roles = ["Don",
                  "Resident",
                  "Detective",
                  "Doctor",
-                 "Hit Man",
-                 "Rebel",
-                 "Bulletproof",
                  "Mafia",
-                 "Resident",
-                 "Resident",
                  "Mafia",
-                 "Resident",
-                 "Resident",
                  "Mafia",
                  "Doctor",
                  "Chef",
@@ -22,14 +14,8 @@ ordered_roles = ["Resident",
                  "Undercover Cop",
                  "Grandma",
                  "Mafia",
-                 "Student",
-                 "Postman",
                  "Mafia",
-                 "Clown",
-                 "Resident",
-                 "Mafia"
-                 "Resident",
-                 "Resident"]
+                 "Mafia"]
 
 nRoles = {"Boxer" : 2,
           "Bride" : 5,
@@ -97,28 +83,27 @@ role2team = {"Boxer" : "mafia",
           "Undercover Cop" : "city"
           }
 
-descriptions = {"Boxor" : "Boxor is a member of mafia team. Boxor hits one of the players at night and the one"
-                          " who hited Can't deffend oneself during day phase due to it's hit effect.",
-                "Bride" : "Bride is a member of city team. Bride has been engaged to Groom recently at nigh both of"
-                        " them will get up and see each other after death of each one of them, other one can kill"
-                        " anyone as a revenge of his/her sweetheart at night phase.",
+descriptions = {"Boxor" : "Боксирует или является членом мафиозной команды. Боксирует или бьет одного из игроков ночью.",
+                "Bride" : "Невеста - член городской команды. Невеста недавно была помолвлена с женихом, ночью оба"
+                        "они встанут и увидят друг друга после смерти каждого из них, другой может убить"
+                        "любой в качестве мести своей возлюбленной на ночной фазе.",
                 "Bulletproof" : "Bulletproof is the most powerful resident which doesn't hurt from night shots. he/she won't die"
                                 " through night phase.",
                 "Bus Driver" : "Bus Driver is city team member. He/She can switch two player which means each shot/question"
                                " from first one will hurt/asked from second one.",
-                "Chef" : "Chef is critical member of city team. After his/her death city team should win at last after 3 days.",
+                "Chef" : "Шериф является важным членом городской команды. После его/ее смерти городская команда должна победить, наконец, через 3 дня.",
                 "Clown" : "Clown is a member of city team. Clown forces someone to reveal his/her role for another players."
                           " Clown can do this just for one time and this should take place at night, GOD should be informed"
                           " whos role to be reavealed.",
                 "Curious Kid" : "He/She is a member of city team which can open his/her eyes and spy on mafias in the way"
                           " that no one can see him/her.",
-                "Detective" : "Detective is from city team gets up at night phase and tries to ask GOD if someone is good"
-                                " (Resident, Doctor, Rebel, Bulletproof) or bad(Mafia), but his/her first attempt to ask from"
-                                " Don may be answered incorrect by GOD.",
-                "Doctor": "Doctor is a helpful participant of city team which gets up after mafia team and tries to rescue a person"
-                            " (or two in the first night) from mafia's shot.",
-                "Don" : "Don is the boss of the mafia group. At night phsae Don decides whom to be killed from the mafia team."
-                        "Don can't be detected by detective.",
+                "Detective" : "Детектив из городской команды встает ночью и пытается спросить БОГА, хороший ли кто-то"
+                                " (Житель, Доктор, бунтарь, пуленепробиваемый) или плохой (мафия), но на его/ее первую попытку спросить у "
+                                " Дона БОГ может дать неверный ответ.",
+                "Doctor": "Доктор - полезный участник городской команды, который встает вслед за командой мафии и пытается спасти человека"
+                            " (или двух в первую ночь) от выстрела мафии.",
+                "Don" : "Дон - босс мафиозной группировки. На ночной фазе Дон решает, кого убить из команды мафии."
+                        "Детектив не может обнаружить Дона.",
                 "Genie" : "Genie is a kind member of city team despite his/her name. Genie selects a player at night and GOD "
                           "will ask the player to wish something and his/her wish will come true. Genie can use his/her power"
                           " just three time in a game.",
@@ -142,8 +127,8 @@ descriptions = {"Boxor" : "Boxor is a member of mafia team. Boxor hits one of th
                            " for next day phase.",
                 "Made Man" : "Made Man is the one of the most powerful participant of the mafia team. Made Man gets up at night and turn"
                              " one of the members of city team to Mafia.",
-                "Mafia" : "Mafia is the simple participant of the mafia team. Mafia gets up at night and try to decide which one of"
-                          "the players they want to kill, detective can detect this kind of mafia in night phase.",
+                "Mafia" : "Мафия - простой участник мафиозной команды. Мафия встает ночью и пытается решить, кого из"
+                          "игроков они хотят убить, детектив может обнаружить этот вид мафии в ночной фазе.",
                 "Magician" : "Magician is member of city team. He/She decides to kill or save a player during night and can use his/her"
                              "power just once during the game.",
                 "Miller" : "Miller is a member of city team. When Detective ask GOD about Millers role the result will be bad(Mafia) so"
