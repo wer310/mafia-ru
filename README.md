@@ -12,7 +12,7 @@ There you go, lets play some mafia :sunglasses:.
 ## Usage
 After cloning into mafia using command bellow:
 ```
-$ git clone https://github.com/sadrasabouri/mafia
+$ git clone https://github.com/wer310/mafia-ru
 ```
 You should do these tiny steps:
 
